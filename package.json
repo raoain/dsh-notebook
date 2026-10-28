@@ -1,6 +1,6 @@
 {
   "name": "dsh-notebook",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "四个动词的分层记事本：醒来 / 干活 / 遇坑 / 收工。核心层每次读，档案层按需查。",
   "keywords": ["dsh", "dsh-plugin", "notebook", "memory", "ritual"],
   "type": "module",
