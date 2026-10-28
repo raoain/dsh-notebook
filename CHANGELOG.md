@@ -1,5 +1,13 @@
 # 更新日志
 
+## v0.2.1 — 2026-10-29
+
+**修：工作层时间戳补全年份**
+
+- `stamp()` 从 `MM-dd HH:mm` 改为 `yyyy-MM-dd HH:mm`
+- 为什么：写入端写 `MM-dd`、检查端（verify）要求 `yyyy-MM-dd`，两端不一致 → 检查报假绿/假红。同批把 `notebook.ps1` 的 stamp 也改了
+- 注意：`package.json` 必须无 BOM（加了 BOM 会让 bundle 加载失败：`Unexpected token '﻿'`）
+
 ## v0.2.0 — 2026-10-28
 
 **新增：`notebook_tomb`（第五个动词）**
